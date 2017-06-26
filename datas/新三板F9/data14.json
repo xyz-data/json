@@ -1,0 +1,7 @@
+[
+    { "id": "100501", "name": "财务摘要", "isParent": false },
+    { "id": "100502", "name": "资产负债", "isParent": false },
+    { "id": "5071", "name": "利润表", "isParent": false },
+    { "id": "5074", "name": "现金流量表", "isParent": false },
+    { "id": "5077", "name": "权益变动表", "isParent": false }
+]

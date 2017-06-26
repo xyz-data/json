@@ -1,0 +1,7 @@
+[
+    { "id": "100101", "name": "公司简介", "isParent": false },
+    { "id": "100102", "name": "证券简介", "isParent": false },
+    { "id": "100103", "name": "股本结构", "isParent": false },
+    { "id": "100104", "name": "员工人数与薪酬", "isParent": false },
+    { "id": "35722", "name": "所属板块及指数", "isParent": false }
+]

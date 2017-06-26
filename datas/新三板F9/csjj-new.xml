@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page name="CompanyShortDesc" caption="公司简介">
+    <Request responsetype="rtDataSet"><![CDATA[{"ApiName":"CompanyShortDesc","SecuCode":"@SecuCode"}]]></Request>
+    <ToolBar name="lcToolbar" Caption="工具栏">
+        <Button name="btnRequest"/>
+        <Button name="btnOutput" caption="数据导出" bindvalue="OUTPUT" ImageIndex="9"/>
+    </ToolBar>
+    <Container name="ctDataGround3" caption="报表容器" BorderSides="0">
+        <Container name="ctChart2" caption="报表容器" Padding="0">
+            <Report name="CompanyShortDesc" caption="公司简介" reverse="true" showhead="false" AutoNodeHeight="true" ShowButton="false" >
+                <Row RName="row1" heigh="220"/>
+                <Row RName="row2" heigh="700"/>
+                <Column filedname="chiName" caption="公司名称"/>
+                <Column filedname="oldName" functype="ftStaticTable" caption="曾用名">
+                    <Column filedname="changedate" caption="变更日期" width="100"/>
+                    <Column filedname="changebeforename" caption="变更前" width="300"/>
+                    <Column filedname="changeaftername" caption="变更后" width="300"/>
+                </Column>
+                <Column filedname="engName" caption="英文名称"/>
+                <Column filedname="briefIntroText" caption="公司简介"/>
+                <Column filedname="businessMajor" caption="经营范围"/>
+                <Column filedname="mastProductAndService" caption="主要产品与服务项目"/>
+                <Column filedname="seconIndustry" caption="证监会二级行业"/>
+                <Column filedname="conceptSubject" caption="所属概念题材"/>
+                <Column filedname="realControler" caption="实际控制人"/>
+                <Column filedname="shareHolder" caption="控股股东"/>
+                <Column filedname="shareHolderRate" caption="控股股东持股数量及占比(万股/%)"/>
+                <Column filedname="leaderName" functype="ftStaticTable" caption="总经理" ParamEx="reverse">
+                    <Column filedname="Name" caption="姓名" width="90"/>
+                    <Column filedname="Position" caption="职务"/>
+                    <Column filedname="PersonCV" caption="个人简历"/>
+                    <Column filedname="PositionSummary" caption="任职概况"/>
+                </Column>
+                <Column filedname="Chairman" functype="ftStaticTable" caption="董事长" ParamEx="reverse">
+                    <Column filedname="Name" caption="姓名" width="90"/>
+                    <Column filedname="Position" caption="职务"/>
+                    <Column filedname="PersonCV" caption="个人简历"/>
+                    <Column filedname="PositionSummary" caption="任职概况"/>
+                </Column>
+                <Column filedname="secretary" functype="ftStaticTable" caption="董事会秘书" ParamEx="reverse">
+                    <Column filedname="Name" caption="姓名" width="90"/>
+                    <Column filedname="Position" caption="职务"/>
+                    <Column filedname="PersonCV" caption="个人简历"/>
+                    <Column filedname="PositionSummary" caption="任职概况"/>
+                </Column>
+                <Column filedname="workerCount" caption="员工总数(人)"/>
+                <Column filedname="establishDate" caption="成立日期"/>
+                <Column filedname="listedDate" caption="挂牌日期"/>
+                <Column filedname="regCapital" caption="注册资本(万元)"/>
+                <Column filedname="legalRepr" caption="法人代表"/>
+                <Column filedname="businessRegNum" caption="工商登记号"/>
+                <Column filedname="area" caption="所属地区"/>
+                <Column filedname="regAddrAndZipCode" caption="注册地址和邮编"/>
+                <Column filedname="officeAddrAndZipCode" caption="办公地址和邮编"/>
+                <Column filedname="secretaryBDTel" caption="电话"/>
+                <Column filedname="secretaryBDFax" caption="传真"/>
+                <Column filedname="email" functype="ftEmail" caption="电子邮件"/>
+                <Column filedname="webSite" functype="ftWeb" caption="公司网站"/>
+                <Column filedname="acctName" caption="审计机构"/>
+                <Column filedname="lawName" caption="法律顾问"/>
+            </Report>
+        </Container>
+    </Container>
+</Page>

@@ -1,0 +1,10 @@
+[
+    { "id": "100301", "name": "十大股东", "isParent": false },
+    { "id": "100302", "name": "股东户数", "isParent": false },
+    { "id": "100303", "name": "限售解禁时间表", "isParent": false },
+    { "id": "35690", "name": "机构投资者", "isParent": false },
+    { "id": "35693", "name": "实际控制人持股", "isParent": false },
+    { "id": "35696", "name": "重要股东交易记录", "isParent": false },
+    { "id": "35699", "name": "管理股东列表", "isParent": false },
+    { "id": "35702", "name": "限售解禁时间表", "isParent": false }
+]

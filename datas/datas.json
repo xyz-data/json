@@ -1,0 +1,9 @@
+[
+    { "id": "1101", "name": "新三板F9", "isParent": true },
+    { "id": "1167", "name": "新三板专题统计", "isParent": true },
+    { "id": "1630", "name": "主板F9", "isParent": true },
+    { "id": "1102", "name": "主板专题统计", "isParent": true },
+    { "id": "13", "name": "基金F9", "isParent": true },
+    { "id": "41", "name": "基金专题统计", "isParent": true },
+    { "id": "50", "name": "专题公共栏目", "isParent": true }
+]

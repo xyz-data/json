@@ -1,0 +1,5 @@
+[
+    { "id": "100201", "name": "现任管理层", "isParent": false },
+    { "id": "100202", "name": "离任管理层", "isParent": false },
+    { "id": "100203", "name": "管理层薪酬与持股", "isParent": false }
+]
