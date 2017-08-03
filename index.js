@@ -19,9 +19,7 @@ fetch(url)
 });
 
 
-
 url = `https://raw.githubusercontent.com/gildata/json/master/datas/ntb-F9/csjj.json`;
-
 fetch(url)
 .then((response) => response.json())
 .then((json)=> {
@@ -42,19 +40,7 @@ fetch(url)
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
 url = `https://cdn.xgqfrms.xyz/json/user1.json`;
-
 fetch(url)
 .then((response) => response.json())
 .then((json)=> {
@@ -68,10 +54,4 @@ fetch(url)
     console.log(`phoneNumber = ${repos.phoneNumber[0].number}`);
     console.log(`repos.length = ${repos.length}`);
 });
-
-
-
-
-
-
 
